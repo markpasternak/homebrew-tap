@@ -1,25 +1,25 @@
 class TerminalWeather < Formula
   desc "Animated terminal weather dashboard"
   homepage "https://github.com/markpasternak/terminal-weather"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.3.0/terminal-weather-aarch64-apple-darwin.tar.xz"
-      sha256 "72cfc2a162ffed86075cba090af73af227be310f01124c3df4bbaa60882235ea"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.4.0/terminal-weather-aarch64-apple-darwin.tar.xz"
+      sha256 "1efe2105ab64b30ea38accec705594465a0341725f947d0101ee1b788e15682a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.3.0/terminal-weather-x86_64-apple-darwin.tar.xz"
-      sha256 "2dce49f472cfd3cc7fee003e8ad0e746411cb4ddf193a5ba9a52d939f83b6c81"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.4.0/terminal-weather-x86_64-apple-darwin.tar.xz"
+      sha256 "a74e46b4649d7d34d375e73e91422f71f6f6d545778bdedac8689290d531c4c2"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.3.0/terminal-weather-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b8d32dc7544caa60d8a08145cf7f98a6b378ecd3add914103ee8308fc5efa676"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.4.0/terminal-weather-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ccebd1a97fbf1890404f1262cfece27f6d2b386488f2a558389303084e9649f2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.3.0/terminal-weather-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "06bb293edf40070eeef365573ba491344980cfcf5501d7e6946f0e13eda00428"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.4.0/terminal-weather-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9c50def4ef6548096a897d6846b0d80a0492a88407a53314f8f15c3bb4e0d3ce"
     end
   end
   license "MIT"
