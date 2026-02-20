@@ -1,28 +1,28 @@
 class TerminalWeather < Formula
   desc "Animated terminal weather dashboard"
   homepage "https://github.com/markpasternak/terminal-weather"
-  version "0.4.0"
+  version "0.5.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.4.0/terminal-weather-aarch64-apple-darwin.tar.xz"
-      sha256 "1efe2105ab64b30ea38accec705594465a0341725f947d0101ee1b788e15682a"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.0/terminal-weather-aarch64-apple-darwin.tar.xz"
+      sha256 "a1cff1d3ec4e84baed5b7ba24abdeea60796b1b455f23f8cb45622982dc930fa"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.4.0/terminal-weather-x86_64-apple-darwin.tar.xz"
-      sha256 "a74e46b4649d7d34d375e73e91422f71f6f6d545778bdedac8689290d531c4c2"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.0/terminal-weather-x86_64-apple-darwin.tar.xz"
+      sha256 "9dcbe67aff123a3aa751f5860f3dea742e1aa273ba3ae35de2f90ea2ac0daa0e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.4.0/terminal-weather-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "ccebd1a97fbf1890404f1262cfece27f6d2b386488f2a558389303084e9649f2"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.0/terminal-weather-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "994454681c6c8c8f12863f2d86a48dcf517ea0b8c905d7c3b78d0260e636e7fc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.4.0/terminal-weather-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "9c50def4ef6548096a897d6846b0d80a0492a88407a53314f8f15c3bb4e0d3ce"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.0/terminal-weather-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "40c96f80c71253354b091ba846e51bc9e75b105a1c729775323fa09fa06df7d5"
     end
   end
-  license "MIT"
+  license "GPL-3.0-only"
 
   BINARY_ALIASES = {
     "aarch64-apple-darwin":      {},
