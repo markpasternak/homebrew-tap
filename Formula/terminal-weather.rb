@@ -1,25 +1,25 @@
 class TerminalWeather < Formula
   desc "Animated terminal weather dashboard"
   homepage "https://github.com/markpasternak/terminal-weather"
-  version "0.5.1"
+  version "0.5.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.1/terminal-weather-aarch64-apple-darwin.tar.xz"
-      sha256 "c0836735375101cdb45ca346743f8ca5190d788c8d7157e5b2eed5a139ea68b0"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.2/terminal-weather-aarch64-apple-darwin.tar.xz"
+      sha256 "5f683e587ec3fd3957413b67daaa19cc6db86db99b1147a1e8947eecc1a06461"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.1/terminal-weather-x86_64-apple-darwin.tar.xz"
-      sha256 "697d42c025dbd9c4cff2f6caa4ab90dc94fa056a316b5a871b225620192ff5fc"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.2/terminal-weather-x86_64-apple-darwin.tar.xz"
+      sha256 "dcbe32d1cd3d1125522257f8b972d391c296a5fdfb83ddf8e7024d52d42cc7b4"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.1/terminal-weather-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "40f5799d30353b39370fc3b45844778d24866e04f52214c93b023218731eaee5"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.2/terminal-weather-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "cdbb148d87338a50b2e21fb5f8d3450daa8a7e56c2a16f6f9e1b04fecb1a4759"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.1/terminal-weather-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b13f1f52c73feec5486f9e45c03be70e88ff2fcc4508459ebae514e0aae44312"
+      url "https://github.com/markpasternak/terminal-weather/releases/download/v0.5.2/terminal-weather-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "04b6915a73e2a42100d78b5cb12cf159a2d28ca91ad50ea37bd510e4ec95d921"
     end
   end
   license "GPL-3.0-only"
